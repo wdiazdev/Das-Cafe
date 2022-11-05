@@ -1,0 +1,67 @@
+.video--container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.video {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -10000;
+}
+
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.video--container p {
+    color: #fff;
+    font-size: 5rem;
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 2px;
+}
+
+.video--container span {
+    color: #e6b08d;
+}
+
+.home--header {
+    margin-bottom: 6rem;
+}
+
+.home--header h1 {
+    color: #e6b08d;
+    font-size: 8rem;
+    font-family: 'Poor Story', sans-serif;
+}
+
+.btn--container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.btn {
+    border: 2px solid #e6b08d;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 1rem 1.5rem;
+    transition: 0.3s ease-in;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.5rem;
+}
+
+.btn:hover {
+    background-color: transparent;
+}

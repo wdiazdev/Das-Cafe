@@ -1,0 +1,53 @@
+li,
+a {
+    text-decoration: none;
+    list-style: none;
+    color: #fff;
+    font-size: 1rem;
+    letter-spacing: 1.5px;
+}
+
+.navbar--container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.3rem;
+    background: #000;
+}
+
+.navbar--container h3 {
+    font-family: 'Poor Story', sans-serif;
+    font-size: 1.8rem;
+    color: #e6b08d;
+    transition: ease-in 0.2s;
+}
+
+.navbar--container h3:hover {
+    color: #fff;
+}
+
+.navbar--links {
+    width: 50%;
+}
+
+.navbar--links ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar--links a {
+    font-size: 1rem;
+    text-transform: uppercase;
+    transition: ease-in 0.2s;
+}
+
+.navbar--links a:hover {
+    color: #e6b08d;
+    font-weight: 500;
+}
+
+.cart--icon {
+    color: #fff;
+    font-size: 2rem;
+}
