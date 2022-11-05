@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import './Styles/Navbar.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faMugHot } from '@fortawesome/free-solid-svg-icons';
+import { faBagShopping } from '@fortawesome/free-solid-svg-icons';
 
 
 function Navbar() {
@@ -15,7 +15,10 @@ function Navbar() {
                     <li><Link to='/contact'>Contact Us</Link></li>
                 </ul>
             </div>
-            <FontAwesomeIcon icon={faMugHot} className='cart--icon' />
+            <div className='cart'>
+                <FontAwesomeIcon icon={faBagShopping} className='cart--icon' />
+                <div className='rounded--circle'>1</div>
+            </div>
         </div>
     )
 }
