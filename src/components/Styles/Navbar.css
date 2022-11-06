@@ -63,9 +63,9 @@ a {
 }
 
 .rounded--circle {
+    position: absolute;
     width: 1.6rem;
     height: 1.6rem;
-    position: absolute;
     color: #fff;
     background: #000;
     bottom: 0;
