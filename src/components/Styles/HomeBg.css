@@ -63,5 +63,7 @@
 }
 
 .btn:hover {
-    background-color: transparent;
+    background: #e6b08d;
+    border: none;
+    color: #000;
 }
