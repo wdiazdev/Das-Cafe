@@ -5,20 +5,12 @@ import { faBagShopping, faBars, faXmark } from '@fortawesome/free-solid-svg-icon
 import { useState } from 'react';
 import { useMenuBag } from '../context/MenuContext';
 
-
-
 function Navbar() {
     const [click, setClick] = useState(false);
-    const [menuSlider, setMenuSlider] = useState(false);
 
     const handleClick = () => setClick(!click);
 
-    const handleBagClick = () => {
-        setMenuSlider(current => !current)
-    }
-
-    const { bagQuantity } = useMenuBag();
-
+    const { bagQuantity, openBag } = useMenuBag();
 
     return (
         <div className='navbar--container'>
@@ -30,38 +22,21 @@ function Navbar() {
                 <li><Link to='/'>Contact Us</Link></li>
             </ul>
 
-
             {bagQuantity > 0 && (
-                <button
-                    className='cart bag--active'
-                    onClick={handleBagClick}
-                >
-
-                    {/* MENU SLIDER ON CLICK EVENT  */}
-                    {menuSlider && <MenuSlider />}
-
+                <button className='cart' onClick={openBag}>
                     <FontAwesomeIcon icon={faBagShopping} className='cart--icon' />
                     <div className='rounded--circle'>
                         {bagQuantity}
                     </div>
                 </button>
-            )
-            }
+            )}
 
-            <div className='hamburger--menu' onClick={handleClick}>
+            < div className='hamburger--menu' onClick={handleClick}>
                 {click ? (<FontAwesomeIcon icon={faXmark} />) : (<FontAwesomeIcon icon={faBars} />)}
             </div>
 
         </div >
     )
-}
-
-function MenuSlider() {
-    return (
-        <div className='slider--container'>
-            <h3>Your Order</h3>
-        </div>
-    )
-}
+};
 
 export default Navbar

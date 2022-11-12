@@ -5,7 +5,6 @@ import Home from './pages/Home';
 import Menu from './pages/Menu';
 import { MenuBagProvider } from './context/MenuContext';
 
-
 function App() {
   return (
     <MenuBagProvider>
