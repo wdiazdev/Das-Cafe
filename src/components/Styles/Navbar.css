@@ -46,18 +46,16 @@ a {
     color: #e6b08d;
 }
 
-.cart {
+.bag {
     position: relative;
     background: transparent;
     cursor: pointer;
-    transition: 0.3s ease-in;
 }
 
 .cart--icon {
     color: #fff;
     background: transparent;
     font-size: 2.2rem;
-    transition: 0.3s ease-in;
 }
 
 .rounded--circle {
@@ -89,7 +87,6 @@ a {
         flex-direction: column;
         justify-content: space-evenly;
         padding: 1rem 0;
-        gap: 0.5rem;
     }
 
     .navbar--container h3 {
@@ -98,12 +95,13 @@ a {
 
     .hamburger--menu {
         position: absolute;
-        right: 20px;
-        top: 46px;
+        right: 25px;
         display: block;
+        display: flex;
         cursor: pointer;
         color: #fff;
-        font-size: 2rem;
+        font-size: 2.5rem;
+        margin-top: 8px;
     }
 
     .navbar--links {

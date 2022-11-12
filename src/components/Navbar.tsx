@@ -17,13 +17,14 @@ function Navbar() {
             <Link to='/'><h3 className='navbar--logo'>Das Café</h3></Link>
 
             <ul className={click ? 'navbar--links active' : 'navbar--links'}>
+                <li><Link to='/'>Home</Link></li>
                 <li><Link to='/menu'>Menu</Link></li>
                 <li><Link to='/'>About</Link></li>
                 <li><Link to='/'>Contact Us</Link></li>
             </ul>
 
             {bagQuantity > 0 && (
-                <button className='cart' onClick={openBag}>
+                <button className='bag' onClick={openBag}>
                     <FontAwesomeIcon icon={faBagShopping} className='cart--icon' />
                     <div className='rounded--circle'>
                         {bagQuantity}
