@@ -4,13 +4,15 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBagShopping, faBars, faXmark } from '@fortawesome/free-solid-svg-icons';
 import { useState } from 'react';
 import { useMenuBag } from '../context/MenuContext';
+import SliderMenu from './SliderMenu';
 
 function Navbar() {
     const [click, setClick] = useState(false);
+    const [openBag, setOpenBag] = useState(false);
 
     const handleClick = () => setClick(!click);
 
-    const { bagQuantity, openBag } = useMenuBag();
+    const { bagQuantity } = useMenuBag();
 
     return (
         <div className='navbar--container'>
@@ -24,13 +26,15 @@ function Navbar() {
             </ul>
 
             {bagQuantity > 0 && (
-                <button className='bag' onClick={openBag}>
+                <button className='bag' onClick={() => setOpenBag(true)}>
                     <FontAwesomeIcon icon={faBagShopping} className='cart--icon' />
                     <div className='rounded--circle'>
                         {bagQuantity}
                     </div>
                 </button>
             )}
+
+            {openBag && <SliderMenu closeBag={setOpenBag} />}
 
             < div className='hamburger--menu' onClick={handleClick}>
                 {click ? (<FontAwesomeIcon icon={faXmark} />) : (<FontAwesomeIcon icon={faBars} />)}
