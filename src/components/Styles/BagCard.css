@@ -1,0 +1,46 @@
+.bag--item {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 5px 0;
+}
+
+.bag--card--img {
+    width: 125px;
+    height: 100px;
+    object-fit: cover;
+    border: 1px solid #000;
+}
+
+.bag--card--content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 280px;
+}
+
+.quantity {
+    color: rgb(136, 136, 136);
+    margin-left: 5px;
+}
+
+.price {
+    color: rgb(136, 136, 136);
+}
+
+.total--price--remove {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.remove--btn {
+    color: rgb(136, 136, 136);
+    cursor: pointer;
+}
+
+.remove--btn:hover {
+    color: #000;
+}
+
+@media screen and (max-width:1000px) {}

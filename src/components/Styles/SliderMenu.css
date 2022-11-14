@@ -1,0 +1,54 @@
+.slider--menu {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 450px;
+    height: 100vh;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 1) 52%, rgba(230, 176, 141, 1) 100%);
+    right: 0;
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    transition: 0.5s;
+    z-index: 1;
+}
+
+#slider--title {
+    color: #000;
+    margin: 3rem 0;
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: 'Poor Story', sans-serif;
+}
+
+.slider--menu button {
+    all: unset;
+}
+
+.slider--icon {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    font-size: 2.5rem;
+    cursor: pointer;
+    color: rgb(136, 136, 136);
+}
+
+.slider--icon:hover {
+    color: #000;
+}
+
+.order--total {
+    padding: 1rem;
+    display: flex;
+    justify-content: end;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+@media screen and (max-width:1000px) {
+    .slider--menu {
+        width: 100%;
+    }
+}

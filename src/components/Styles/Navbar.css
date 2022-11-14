@@ -79,34 +79,6 @@ a {
     display: none;
 }
 
-.slider--menu {
-    position: fixed;
-    top: 0;
-    right: 0;
-    width: 350px;
-    height: 100vh;
-    background: #fff;
-    right: 0;
-    color: #000;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 1rem;
-    transition: 0.5s;
-}
-
-#slider--title {
-    color: #000;
-    margin-top: 3rem;
-}
-
-.slider--icon {
-    position: absolute;
-    right: 25px;
-    font-size: 2.5rem;
-    cursor: pointer;
-}
-
 /* RESPONSIVE DESIGN */
 
 @media screen and (max-width:1000px) {
@@ -167,9 +139,4 @@ a {
         height: 1.2rem;
         font-size: 0.8rem;
     }
-
-    .slider--menu {
-        width: 100%;
-    }
-
 }
