@@ -3,7 +3,7 @@
         "id": 1,
         "name": "Black",
         "price": 2.69,
-        "imgUrl": "/public/coffee1.jpg"
+        "imgUrl": "./public/coffee1.jpg"
     },
     {
         "id": 2,
