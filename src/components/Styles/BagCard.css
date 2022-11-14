@@ -31,12 +31,16 @@
 
 .total--price--remove {
     display: flex;
+    align-items: center;
     gap: 0.5rem;
 }
 
 .remove--btn {
     color: rgb(136, 136, 136);
+    border: 1px solid rgb(136, 136, 136);
+    border-radius: 5px;
     cursor: pointer;
+    padding: 0.5rem;
 }
 
 .remove--btn:hover {
