@@ -3,13 +3,13 @@
         "id": 1,
         "name": "Black",
         "price": 2.69,
-        "imgUrl": "coffee1.jpg"
+        "imgUrl": "./coffee1.jpg"
     },
     {
         "id": 2,
         "name": "Mocha",
         "price": 3.45,
-        "imgUrl": "coffee2.jpg"
+        "imgUrl": "./coffee2.jpg"
     },
     {
         "id": 3,
