@@ -34,8 +34,8 @@ export default function MenuItems({ id, name, price, imgUrl }: MenuItemsProps) {
                     className={click ? "liked" : "favorite"}
                     onClick={handleClick}
                 />
-                +
-                <img className="item--img" src={imgUrl} alt="Coffee" />
+
+                <img className="item--img" src={`${process.env.REACT_APP_PUBLIC_URL}` + imgUrl} alt="Coffee" />
 
                 <div className="name--price">
                     <span>{name}</span>
