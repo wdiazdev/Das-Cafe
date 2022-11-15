@@ -3,36 +3,36 @@
         "id": 1,
         "name": "Black",
         "price": 2.69,
-        "imgUrl": "../public/coffee1.jpg"
+        "imgUrl": "/coffee1.jpg"
     },
     {
         "id": 2,
         "name": "Mocha",
         "price": 3.45,
-        "imgUrl": "../public/coffee2.jpg"
+        "imgUrl": "/coffee2.jpg"
     },
     {
         "id": 3,
         "name": "Espresso",
         "price": 2.69,
-        "imgUrl": "../../public/coffee3.jpg"
+        "imgUrl": "/coffee3.jpg"
     },
     {
         "id": 4,
         "name": "Americano",
         "price": 2.69,
-        "imgUrl": "../../public/coffee4.jpg"
+        "imgUrl": "/coffee4.jpg"
     },
     {
         "id": 5,
         "name": "Macchiado",
         "price": 3.75,
-        "imgUrl": "../../public/coffee5.jpg"
+        "imgUrl": "/coffee5.jpg"
     },
     {
-        "id": 5,
+        "id": 6,
         "name": "Cappucino",
         "price": 3.29,
-        "imgUrl": "../../public/coffee6.jpg"
+        "imgUrl": "/coffee6.jpg"
     }
 ]
