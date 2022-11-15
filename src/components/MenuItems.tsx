@@ -34,7 +34,7 @@ export default function MenuItems({ id, name, price, imgUrl }: MenuItemsProps) {
                     className={click ? "liked" : "favorite"}
                     onClick={handleClick}
                 />
-
+                +
                 <img className="item--img" src={imgUrl} alt="Coffee" />
 
                 <div className="name--price">
