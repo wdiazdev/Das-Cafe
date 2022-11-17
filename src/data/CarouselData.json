@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "name": "Carlos",
+        "review": "Test",
+        "imgUrl": "./face1.jpg"
+    },
+    {
+        "id": 2,
+        "name": "John",
+        "review": "Test",
+        "imgUrl": "./face2.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Judith",
+        "review": "Test",
+        "imgUrl": "./face3.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Susan",
+        "review": "Test",
+        "imgUrl": "./face4.jpg"
+    }
+]

@@ -21,12 +21,12 @@ function Navbar() {
             <ul className={click ? 'navbar--links active' : 'navbar--links'}>
                 <li><Link to='/'>Home</Link></li>
                 <li><Link to='/menu'>Menu</Link></li>
-                <li><Link to='/'>About</Link></li>
-                <li><Link to='/'>Contact Us</Link></li>
+                <li><Link to='/about'>About</Link></li>
+                <li><Link to='/contact'>Contact Us</Link></li>
             </ul>
 
             {bagQuantity > 0 && (
-                <button className='bag' onClick={() => setOpenBag(true)}>
+                <button className='bag--button' onClick={() => setOpenBag(true)}>
                     <FontAwesomeIcon icon={faBagShopping} className='cart--icon' />
                     <div className='rounded--circle'>
                         {bagQuantity}

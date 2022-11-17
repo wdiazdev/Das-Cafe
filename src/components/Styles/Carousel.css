@@ -1,0 +1,13 @@
+.review--container {
+    width: 600px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid red;
+    margin: 0 auto;
+}
+
+.review--container img {
+    width: 200px;
+    height: 200px;
+}
