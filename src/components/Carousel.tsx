@@ -15,6 +15,15 @@ export default function Carousel() {
         </div>
     ))
 
+    const responsive = {
+        0: {
+            items: 1,
+        },
+        1000: {
+            items: 3,
+        },
+    };
+
     return (
         <AliceCarousel
             mouseTracking
@@ -22,8 +31,10 @@ export default function Carousel() {
             autoPlay
             infinite
             autoPlayInterval={4000}
+            animationDuration={3000}
             animationType={"fadeout"}
             disableButtonsControls={true}
+            responsive={responsive}
         />
     )
 }

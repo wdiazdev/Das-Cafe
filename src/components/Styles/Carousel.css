@@ -1,10 +1,10 @@
 .review--container {
-    width: 600px;
+    width: 300px;
     display: flex;
     align-items: center;
     flex-direction: column;
     border: 1px solid red;
-    margin: 0 auto;
+    margin: 5rem auto;
 }
 
 .review--container img {
