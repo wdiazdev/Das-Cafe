@@ -25,16 +25,18 @@ export default function Carousel() {
     };
 
     return (
-        <AliceCarousel
-            mouseTracking
-            items={items}
-            autoPlay
-            infinite
-            autoPlayInterval={4000}
-            animationDuration={3000}
-            animationType={"fadeout"}
-            disableButtonsControls={true}
-            responsive={responsive}
-        />
+        <div className='reviews'>
+            <AliceCarousel
+                mouseTracking
+                items={items}
+                autoPlay
+                infinite
+                autoPlayInterval={4000}
+                animationDuration={3000}
+                animationType={"fadeout"}
+                disableButtonsControls={true}
+                responsive={responsive}
+            />
+        </div >
     )
 }
