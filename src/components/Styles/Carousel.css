@@ -1,13 +1,47 @@
-.review--container {
-    width: 300px;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    border: 1px solid red;
-    margin: 5rem auto;
+.reviews {
+    width: 80%;
+    margin: 0 auto;
 }
 
-.review--container img {
-    width: 200px;
-    height: 200px;
+.review--card {
+    width: 300px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.5rem;
+    border-radius: 20px;
+    gap: 5px;
+    color: #000;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 1) 52%, rgba(230, 176, 141, 1) 100%);
+}
+
+.review--card img {
+    margin-top: 0.5rem;
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+}
+
+.name {
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.review--stars {
+    color: #d49062;
+}
+
+.divider {
+    width: 60%;
+    margin: 0 auto;
+    height: 2.5px;
+    border-radius: 20px;
+    background: rgb(136, 136, 136);
+}
+
+.review {
+    font-size: 1rem;
+    text-align: center;
 }

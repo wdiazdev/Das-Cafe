@@ -2,25 +2,25 @@
     {
         "id": 1,
         "name": "Carlos",
-        "review": "Test",
+        "review": "If you’re looking for a place where to relax and read some novels or whatever, this coffee shop would be the best.",
         "imgUrl": "./face1.jpg"
     },
     {
         "id": 2,
         "name": "John",
-        "review": "Test",
+        "review": "Unquestionably, the best coffee shop in the area! I’m so thankful that finally, I was able to find this spot for some good coffee just in time. ",
         "imgUrl": "./face2.jpg"
     },
     {
         "id": 3,
         "name": "Judith",
-        "review": "Test",
+        "review": "This coffee shop has it all. The ambiance, interior designs, good coffee, tasty foods, and fast wi-fi connection.",
         "imgUrl": "./face3.jpg"
     },
     {
         "id": 4,
         "name": "Susan",
-        "review": "Test",
+        "review": "A unique coffee shop to study and read books. No loud noises which will help you a lot to concentrate on what you do.",
         "imgUrl": "./face4.jpg"
     }
 ]
