@@ -30,6 +30,9 @@ export default function Carousel() {
             items: 2,
         },
         1000: {
+            items: 2,
+        },
+        1200: {
             items: 3,
         },
     };
@@ -47,6 +50,7 @@ export default function Carousel() {
                 disableButtonsControls={true}
                 disableDotsControls={true}
                 responsive={responsive}
+                autoPlayStrategy={"none"}
             />
         </div >
     )

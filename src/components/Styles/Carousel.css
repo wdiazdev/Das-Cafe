@@ -1,15 +1,16 @@
 .reviews {
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
 }
 
 .review--card {
     width: 300px;
-    height: auto;
+    height: 400px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-    padding: 0.5rem;
+    padding: 1rem;
     border-radius: 20px;
     gap: 5px;
     color: #000;
@@ -18,14 +19,13 @@
 }
 
 .review--card img {
-    margin-top: 0.5rem;
-    width: 170px;
+    width: 150px;
     height: 170px;
     border-radius: 50%;
 }
 
 .name {
-    font-size: 2rem;
+    font-size: 1.4rem;
     font-weight: 500;
 }
 
@@ -35,13 +35,13 @@
 
 .divider {
     width: 60%;
-    margin: 0 auto;
-    height: 2.5px;
+    margin: 5px auto;
+    height: 2px;
     border-radius: 20px;
     background: rgb(136, 136, 136);
 }
 
 .review {
-    font-size: 1rem;
+    font-size: 0.8rem;
     text-align: center;
 }

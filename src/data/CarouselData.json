@@ -22,5 +22,11 @@
         "name": "Susan",
         "review": "A unique coffee shop to study and read books. No loud noises which will help you a lot to concentrate on what you do.",
         "imgUrl": "./face4.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Gary",
+        "review": " I really like the atmosphere, good coffee, and nice interior. This is a good place to study or chill with friends.",
+        "imgUrl": "./face5.jpg"
     }
 ]
