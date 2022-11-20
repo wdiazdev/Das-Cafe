@@ -21,12 +21,12 @@
 .menu--banner h2 {
     font-family: 'Poor Story', sans-serif;
     color: #e6b08d;
-    font-size: 8rem;
+    font-size: 7rem;
 }
 
 .menu--banner p {
     color: #fff;
-    font-size: 5rem;
+    font-size: 4rem;
     font-family: 'Bebas Neue', sans-serif;
     letter-spacing: 2px;
     text-align: center;
@@ -71,25 +71,24 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     place-items: center;
-    grid-gap: 0.5rem;
 }
 
 .card--content {
     position: relative;
     margin: 1rem auto;
-    width: 275px;
+    width: 250px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     border: 1px solid #d49062;
     border-radius: 1rem;
     overflow: hidden;
-    box-shadow: rgba(247, 243, 243, 0.35) 0px 4px 14px;
+    box-shadow: rgba(247, 243, 243, 0.35) 0px 2px 12px;
 }
 
 .item--img {
-    width: 275px;
-    height: 275px;
+    width: 250px;
+    height: 250px;
     object-fit: cover;
 }
 
@@ -103,7 +102,7 @@
 
 .name--price span {
     font-weight: 500;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 .card--btn--container {
@@ -118,7 +117,7 @@
     margin-bottom: 10px;
     border: none;
     background: #d49062;
-    font-size: 1rem;
+    font-size: 0.8rem;
     width: 100%;
     border-radius: 1rem;
     cursor: pointer;
@@ -145,7 +144,7 @@
 }
 
 .plus--minus span {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     color: #fff;
 }
 
@@ -157,7 +156,7 @@
     background: #000;
     color: #e6b08d;
     cursor: pointer;
-    font-size: 1.3rem;
+    font-size: 1rem;
     border: 1px solid #d49062;
 }
 

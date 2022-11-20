@@ -34,5 +34,15 @@
         "name": "Cappucino",
         "price": 3.29,
         "imgUrl": "./coffee6.jpg"
+    },
+    {
+        "cold": [
+            {
+                "id": 6,
+                "name": "Cappucino",
+                "price": 3.29,
+                "imgUrl": "./coffee6.jpg"
+            }
+        ]
     }
 ]
