@@ -10,7 +10,6 @@ import HotCoffee from '../data/HotCoffee.json';
 export default function SliderMenu({ closeBag }: any) {
     const { bagItems } = useMenuBag();
 
-
     return (
         <div className="slider--menu">
             <button onClick={() => closeBag(false)}>

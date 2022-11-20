@@ -14,8 +14,7 @@ export default function Menu() {
     return (
         <div className='menu'>
             <MenuBanner />
-            <h2 className='hot--coffee'>Hot Coffee</h2>
-            <p></p>
+            <h2 className='menu--subtitle'>Hot Coffee</h2>
             <div className='menu--container'>
                 {HotCoffeeData.map(item => (
                     <div key={item.id}>

@@ -36,13 +36,21 @@
         "imgUrl": "./coffee6.jpg"
     },
     {
-        "cold": [
-            {
-                "id": 6,
-                "name": "Cappucino",
-                "price": 3.29,
-                "imgUrl": "./coffee6.jpg"
-            }
-        ]
+        "id": 7,
+        "name": "Iced Chocolate Mocha",
+        "price": 5.69,
+        "imgUrl": "../../public/coffee7.jpg"
+    },
+    {
+        "id": 8,
+        "name": "Iced Caramel Macchiato",
+        "price": 5.69,
+        "imgUrl": "../../public/coffee8.jpg"
+    },
+    {
+        "id": 9,
+        "name": "Iced Coffee",
+        "price": 4.69,
+        "imgUrl": "../../public/coffee9.jpg"
     }
 ]

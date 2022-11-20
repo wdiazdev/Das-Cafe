@@ -38,11 +38,12 @@
 
 /* MENU CONTAINER   */
 
-.hot--coffee {
-    color: #fff;
-    font-size: 2.5rem;
-    padding: 1rem;
+.menu--subtitle {
+    color: #e6b08d;
+    font-size: 3rem;
+    margin: 2rem auto;
     text-align: center;
+    font-family: 'Poor Story', sans-serif;
 }
 
 .favorite {
