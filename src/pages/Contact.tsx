@@ -1,7 +1,11 @@
-
+import React from 'react'
+import Form from '../components/Form'
+import '../components/Styles/Contact.css';
 
 export default function Contact() {
     return (
-        <div>This is a test</div>
+        <div className='contact--container'>
+            <Form />
+        </div>
     )
 }

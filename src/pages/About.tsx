@@ -6,7 +6,7 @@ export default function About() {
     return (
         <div className="about--container">
             <div className="carousel">
-                <Carousel />
+                {/* <Carousel /> */}
             </div>
         </div>
     )

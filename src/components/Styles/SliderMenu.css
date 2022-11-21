@@ -47,6 +47,12 @@
     font-weight: 500;
 }
 
+.checkout {
+    margin: 0 auto;
+    text-align: center;
+    width: 60%;
+}
+
 @media screen and (max-width:1000px) {
     .slider--menu {
         width: 100%;

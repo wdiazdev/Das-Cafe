@@ -1,6 +1,6 @@
 .menu {
     width: 100%;
-    height: 100%;
+    height: 100vh;
     position: relative;
 }
 
@@ -40,10 +40,17 @@
 
 .menu--subtitle {
     color: #e6b08d;
-    font-size: 3rem;
-    margin: 2rem auto;
+    font-size: 4rem;
+    margin: 1rem auto;
     text-align: center;
     font-family: 'Poor Story', sans-serif;
+}
+
+
+.sub--description {
+    font-size: 1.5rem;
+    padding: 0 2rem;
+    text-align: center;
 }
 
 .favorite {
@@ -67,7 +74,7 @@
 }
 
 .menu--container {
-    max-width: 1200px;
+    max-width: 1000px;
     margin: auto;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -189,5 +196,22 @@
 @media screen and (max-width:640px) {
     .menu--container {
         grid-template-columns: 1fr;
+    }
+
+    .menu--banner h2 {
+        font-size: 4rem;
+        margin-top: 4rem;
+    }
+
+    .menu--banner p {
+        font-size: 2.5rem;
+    }
+
+    .menu--subtitle {
+        font-size: 3rem;
+    }
+
+    .sub--description {
+        font-size: 1.3rem;
     }
 }

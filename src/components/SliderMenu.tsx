@@ -5,6 +5,7 @@ import { formatCurrency } from '../utilities/formatCurrency';
 import BagCard from './BagCard';
 import './Styles/SliderMenu.css';
 import HotCoffee from '../data/HotCoffee.json';
+import { Link } from 'react-router-dom';
 
 
 export default function SliderMenu({ closeBag }: any) {
@@ -28,6 +29,7 @@ export default function SliderMenu({ closeBag }: any) {
                     }, 0)
                 )}
             </div>
+            <Link to='/' className='btn checkout'>Checkout</Link>
         </div>
     )
 };
