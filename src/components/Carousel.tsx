@@ -27,9 +27,9 @@ export default function Carousel() {
 
     const responsive = {
         500: {
-            items: 2,
+            items: 1,
         },
-        1000: {
+        800: {
             items: 2,
         },
         1200: {

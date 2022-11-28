@@ -5,14 +5,16 @@ export default function Form() {
         <div>
             <div className='form--container'>
                 <form className='form'>
+                    <h2 className="title">Send us an email</h2>
                     <input type="text" placeholder='Name' />
                     <input type="text" placeholder='Email' />
                     <input type="text" placeholder='Phone' />
                     <textarea cols={50} rows={8} placeholder="Message"></textarea>
                     <button className='btn contact--btn'>Submit</button>
                 </form>
+
                 <form className='form'>
-                    <h2>TABLE RESERVATION</h2>
+                    <h2 className="title">Table Reservation</h2>
                     <input type="text" placeholder='Name' />
                     <input type="text" placeholder='Email' />
                     <input type="text" placeholder='Phone' />

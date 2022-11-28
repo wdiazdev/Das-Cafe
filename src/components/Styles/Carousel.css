@@ -1,6 +1,6 @@
 .reviews {
     width: 90%;
-    margin: 0 auto;
+    margin: 20px auto;
 }
 
 .review--card {
@@ -45,4 +45,10 @@
     font-size: 0.7rem;
     font-weight: 500;
     text-align: center;
+}
+
+@media screen and (max-width:640px) {
+    .reviews {
+        width: 50%;
+    }
 }
