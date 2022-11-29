@@ -1,4 +1,5 @@
 import Carousel from "../components/Carousel";
+import Footer from "../components/Footer";
 import "../components/Styles/About.css";
 
 
@@ -16,6 +17,7 @@ export default function About() {
                         using a Centurion family technique to make the
                         best-tasting coffee you've ever had.</p>
                 </div>
+                <Footer />
             </div>
             <div className="carousel">
                 <Carousel />

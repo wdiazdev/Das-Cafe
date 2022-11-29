@@ -1,0 +1,30 @@
+.footer {
+    position: absolute;
+    bottom: 20px;
+    width: 90%;
+    padding: 1rem;
+    background: rgba(0, 0, 0, .5);
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 1rem;
+}
+
+.footer--content {
+    display: flex;
+    align-items: center;
+}
+
+.footer--icon {
+    margin-right: 20px;
+    color: #e6b08d;
+    font-size: 2rem;
+}
+
+@media screen and (max-width:640px) {
+    .footer--container {
+        flex-direction: column;
+        gap: 2rem;
+    }
+}

@@ -63,7 +63,6 @@ export default function MenuItems({ id, name, price, imgUrl }: MenuItemsProps) {
                         </div>
                     }
                 </div>
-
             </div>
         </div >
     )
