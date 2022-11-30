@@ -44,8 +44,8 @@ export default function Carousel() {
                 items={items}
                 autoPlay
                 infinite
-                autoPlayInterval={2500}
-                animationDuration={2500}
+                autoPlayInterval={2000}
+                animationDuration={2000}
                 animationType={"fadeout"}
                 disableButtonsControls={true}
                 disableDotsControls={true}

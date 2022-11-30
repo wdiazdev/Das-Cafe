@@ -19,10 +19,10 @@ function Navbar() {
             <Link to='/'><h3 className='navbar--logo'>Das Café</h3></Link>
 
             <ul className={click ? 'navbar--links active' : 'navbar--links'}>
-                <li><Link to='/'>Home</Link></li>
-                <li><Link to='/menu'>Menu</Link></li>
-                <li><Link to='/about'>About Us</Link></li>
-                <li><Link to='/contact'>Contact Us</Link></li>
+                <li onClick={handleClick}><Link to='/'>Home</Link></li>
+                <li onClick={handleClick}><Link to='/menu'>Menu</Link></li>
+                <li onClick={handleClick}><Link to='/about'>About Us</Link></li>
+                <li onClick={handleClick}><Link to='/contact'>Contact Us</Link></li>
             </ul>
 
             {bagQuantity > 0 && (
@@ -34,7 +34,11 @@ function Navbar() {
                 </button>
             )}
 
-            {openBag && <SliderMenu closeBag={setOpenBag} />}
+            {openBag &&
+                <div className='test'>
+                    <SliderMenu closeBag={setOpenBag} />
+                </div>
+            }
 
             < div className='hamburger--menu' onClick={handleClick}>
                 {click ? (<FontAwesomeIcon icon={faXmark} />) : (<FontAwesomeIcon icon={faBars} />)}
