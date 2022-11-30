@@ -1,0 +1,13 @@
+[
+    {
+        "id": 1,
+        "title": "Menu",
+        "subtitle": "Coffee served <span>right</span>"
+    },
+    {
+        "id": 2,
+        "title": "John",
+        "subtitle": "Unquestionably, the best coffee shop in the area! I’m so thankful that finally, I was able to find this spot for some good coffee just in time. ",
+        "imgUrl": "./face2.jpg"
+    }
+]
