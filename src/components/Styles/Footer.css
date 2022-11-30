@@ -1,14 +1,37 @@
 .footer {
-    position: absolute;
-    bottom: 20px;
-    width: 90%;
-    padding: 1rem;
-    background: rgba(0, 0, 0, .5);
-    border-radius: 20px;
+    width: 100%;
+    padding: 1rem 1rem;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('/src/assets/footerbg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.footer--container {
+    max-width: 1000px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem;
+}
+
+.footer--container .left {
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    gap: 1rem;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    max-width: 100%;
+    padding: 1rem;
+    gap: 2rem;
+}
+
+.footer--container .right {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    max-width: 100%;
+    padding: 1rem;
+    margin: auto;
+    gap: 1.5rem;
 }
 
 .footer--content {
@@ -17,15 +40,33 @@
 }
 
 .footer--icon {
-    margin-right: 20px;
-    color: #e6b08d;
+    margin-right: 2rem;
+    color: #d49062;
     font-size: 2rem;
 }
 
+.right>h4 {
+    font-size: 1.2rem;
+    color: #d49062;
+}
+
 @media screen and (max-width:640px) {
-    .footer {
-        flex-direction: column;
-        gap: 1rem;
-        align-items: flex-start;
+    .footer--container {
+        grid-template-columns: 1fr;
+        grid-gap: 1rem;
+    }
+
+    .footer--container i {
+        font-size: 1rem;
+    }
+
+    .left i {
+        margin-bottom: 0.5rem;
+    }
+
+    .right i {
+        width: 100%;
+        font-size: 2rem;
+        text-align: center;
     }
 }

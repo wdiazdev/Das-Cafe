@@ -5,14 +5,13 @@ import '../components/Styles/Contact.css';
 
 export default function Contact() {
     return (
-        <div>
-            <div className='contact--container'>
-                <MenuBanner
-                    title="Have a question?"
-                    subtitle="Our team is happy to answer your questions."
-                />
-                <Form />
-            </div>
+        <div className='contact--container'>
+            <MenuBanner
+                title="Have a question?"
+                subtitle="Our team is happy to answer your questions"
+            />
+            <Form />
+            <Footer />
         </div>
     )
-}
+};

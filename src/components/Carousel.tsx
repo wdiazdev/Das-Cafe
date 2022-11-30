@@ -26,14 +26,14 @@ export default function Carousel() {
     ))
 
     const responsive = {
-        640: {
+        400: {
             items: 1,
         },
-        800: {
-            items: 2,
-        },
-        1200: {
+        640: {
             items: 3,
+        },
+        1000: {
+            items: 4,
         },
     };
 
@@ -51,6 +51,7 @@ export default function Carousel() {
                 disableDotsControls={true}
                 responsive={responsive}
                 autoPlayStrategy={"none"}
+                autoWidth={false}
             />
         </div >
     )

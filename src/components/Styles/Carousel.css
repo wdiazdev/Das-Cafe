@@ -1,6 +1,10 @@
 .reviews {
-    width: 90%;
+    max-width: 1200;
     margin: 20px auto;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .review--card {
@@ -49,7 +53,8 @@
 
 @media screen and (max-width:640px) {
     .reviews {
-        width: 100%;
-        padding: 3.5rem;
+        max-width: 285px;
+        margin: 20px auto;
+        padding: 1rem;
     }
 }
