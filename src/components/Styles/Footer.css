@@ -23,8 +23,9 @@
 }
 
 @media screen and (max-width:640px) {
-    .footer--container {
+    .footer {
         flex-direction: column;
-        gap: 2rem;
+        gap: 1rem;
+        align-items: flex-start;
     }
 }

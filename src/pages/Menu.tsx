@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import HotCoffeeData from '../data/HotCoffee.json';
 import MenuItems from '../components/MenuItems';
 import '../components/Styles/Menu.css';

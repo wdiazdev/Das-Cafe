@@ -1,11 +1,9 @@
 
-export default function MenuBanner() {
+export default function MenuBanner(props: any) {
     return (
         <div className="menu--banner">
-            <h2>Menu</h2>
-            <p>
-                Coffee served <span>right</span>
-            </p>
+            <h2>{props.title}</h2>
+            <p>{props.subtitle}</p>
         </div>
     )
 }

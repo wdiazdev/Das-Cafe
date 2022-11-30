@@ -49,6 +49,7 @@
 
 @media screen and (max-width:640px) {
     .reviews {
-        width: 50%;
+        width: 100%;
+        padding: 3.5rem;
     }
 }
