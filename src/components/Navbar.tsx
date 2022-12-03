@@ -16,7 +16,7 @@ function Navbar() {
 
     return (
         <div className='navbar--container'>
-            <Link to='/' className='jello-horizontal'><h3>Das Café</h3></Link>
+            <Link to='/'><h3>Das Café</h3></Link>
 
             <ul className={click ? 'navbar--links active' : 'navbar--links'}>
                 <li onClick={handleClick} className='text-focus-in'><Link to='/'>Home</Link></li>

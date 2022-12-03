@@ -2,6 +2,7 @@ import HotCoffeeData from '../data/HotCoffee.json';
 import MenuItems from '../components/MenuItems';
 import '../components/Styles/Menu.css';
 import MenuBanner from '../components/MenuBanner';
+import Footer from '../components/Footer';
 
 export default function Menu() {
 
@@ -12,7 +13,7 @@ export default function Menu() {
                 subtitle="Coffee served right"
             />
             <h2 className='menu--subtitle'>Our coffee</h2>
-            <p className='sub--description'>We have carefully selected great tasting coffees from around the world.</p>
+            <p className='sub--description text-focus-in'>We have carefully selected great tasting coffees from around the world.</p>
             <div className='menu--container'>
                 {HotCoffeeData.map(item => (
                     <div key={item.id}>
@@ -20,6 +21,7 @@ export default function Menu() {
                     </div>
                 ))}
             </div>
+            <Footer />
         </div>
     )
 };
