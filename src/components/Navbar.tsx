@@ -16,13 +16,13 @@ function Navbar() {
 
     return (
         <div className='navbar--container'>
-            <Link to='/'><h3 className='navbar--logo'>Das Café</h3></Link>
+            <Link to='/' className='jello-horizontal'><h3>Das Café</h3></Link>
 
             <ul className={click ? 'navbar--links active' : 'navbar--links'}>
-                <li onClick={handleClick}><Link to='/'>Home</Link></li>
-                <li onClick={handleClick}><Link to='/menu'>Menu</Link></li>
-                <li onClick={handleClick}><Link to='/about'>About Us</Link></li>
-                <li onClick={handleClick}><Link to='/contact'>Contact Us</Link></li>
+                <li onClick={handleClick} className='text-focus-in'><Link to='/'>Home</Link></li>
+                <li onClick={handleClick} className='text-focus-in'><Link to='/menu'>Menu</Link></li>
+                <li onClick={handleClick} className='text-focus-in'><Link to='/about'>About Us</Link></li>
+                <li onClick={handleClick} className='text-focus-in'><Link to='/contact'>Contact Us</Link></li>
             </ul>
 
             {bagQuantity > 0 && (

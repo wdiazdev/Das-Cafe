@@ -11,11 +11,11 @@ export default function HomeBg() {
             </video>
             <div className='home--header'>
                 <h1>Das Café</h1>
-                <p>Start your Day with</p>
-                <p> a Perfect <span>Coffee</span></p>
+                <p className='text-focus-in'>Start your Day with</p>
+                <p className='text-focus-in'> a Perfect <span>Coffee</span></p>
                 <div className="btn--container">
-                    <Link to='/contact' className='btn'>book a table</Link>
-                    <Link to='/menu' className='btn'>menu</Link>
+                    <Link to='/contact' className='btn swing-in-top-fwd'>book a table</Link>
+                    <Link to='/menu' className='btn swing-in-top-fwd'>menu</Link>
                 </div>
             </div>
         </div>
