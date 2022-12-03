@@ -4,16 +4,16 @@ export default function Form() {
         <div>
             <div className='form--container'>
                 <form className='form'>
-                    <h2 className="title">Send us an email</h2>
+                    <h2 className="title text-focus-in">Send us an email</h2>
                     <input type="text" placeholder='Name' />
                     <input type="text" placeholder='Email' />
                     <input type="text" placeholder='Phone' />
                     <textarea cols={50} rows={8} placeholder="Message"></textarea>
-                    <button className='btn contact--btn'>Submit</button>
+                    <button className='btn contact--btn swing-in-top-fwd'>Submit</button>
                 </form>
 
                 <form className='form'>
-                    <h2 className="title">Table Reservation</h2>
+                    <h2 className="title text-focus-in">Table Reservation</h2>
                     <input type="text" placeholder='Name' />
                     <input type="text" placeholder='Email' />
                     <input type="text" placeholder='Phone' />
@@ -25,7 +25,7 @@ export default function Form() {
                         placeholder='Max 8'
                     ></input>
                     <textarea cols={50} rows={8} placeholder="Notes"></textarea>
-                    <button className='btn contact--btn'>Make Reservation</button>
+                    <button className='btn contact--btn swing-in-top-fwd'>Make Reservation</button>
                 </form>
             </div>
         </div>
