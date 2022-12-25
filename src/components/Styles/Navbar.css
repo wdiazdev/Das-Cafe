@@ -14,7 +14,7 @@ a {
     justify-content: space-between;
     align-items: center;
     padding: 1.5rem 2.5rem;
-    background: #000;
+    background: rgba(0, 0, 0, .6);
     z-index: 1000;
     box-shadow: 0 4px 2px -2px #fff;
 }
@@ -109,6 +109,7 @@ a {
         flex-direction: column;
         justify-content: space-evenly;
         padding: 1rem 0;
+        z-index: 10000;
     }
 
     .navbar--container h3 {
@@ -130,13 +131,13 @@ a {
         top: 0;
         left: -100%;
         width: 100%;
-        height: 100vh;
+        min-height: 100%;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         transition: 0.5s;
-        background: rgba(0, 0, 0, .9);
+        background: rgba(0, 0, 0, 0.9);
         z-index: -1;
     }
 

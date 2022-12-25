@@ -3,7 +3,7 @@ import HomeBg from '../components/HomeBg';
 
 function Home() {
     return (
-        <div>
+        <div className='home'>
             <HomeBg />
             <Footer />
         </div>
