@@ -36,7 +36,7 @@ const Footer = () => {
                         our processes here at Das café that translate into the
                         consistently tasty roasts you enjoy.</p>
 
-                    <a href='https://www.linkedin.com' target='_blank'>
+                    <a href='https://www.linkedin.com/in/wdiazdev/' target='_blank'>
                         <FontAwesomeIcon icon={faCoffee} className='footer--icon' />
                     </a>
                 </div>
