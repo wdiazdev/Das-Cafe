@@ -1,5 +1,4 @@
 import { createContext, ReactNode, useContext, useState } from "react";
-import SliderMenu from "../components/SliderMenu";
 
 type MenuBagProviderProps = {
     children: ReactNode
