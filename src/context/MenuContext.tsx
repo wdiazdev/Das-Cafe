@@ -35,21 +35,38 @@ export function MenuBagProvider({ children }:
         return bagItems.find(item => item.id === id)?.quantity || 0
     }
 
-    function increaseBagQuantity(id: number) {
-        setBagItems(currItems => {
-            if (currItems.find(item => item.id === id) == null) {
-                return [...currItems, { id, quantity: 1 }]
-            } else {
-                return currItems.map(item => {
-                    if (item.id === id) {
-                        return { ...item, quantity: item.quantity + 1 }
-                    } else {
-                        return item
-                    }
-                })
-            }
-        })
-    }
+    function increaseBagQuantity(id: number): void {
+        const itemToUpdate = findItemById(id);
+
+        if (itemToUpdate) {
+            updateItemQuantity(itemToUpdate);
+        } else {
+            addItemToBag(id);
+        }
+    };
+
+    function findItemById(id: number): BagItem | undefined {
+        return bagItems.find(item => item.id === id);
+    };
+
+    function updateItemQuantity(itemToUpdate: BagItem): void {
+        setBagItems(prevItems => {
+            return prevItems.map(item => {
+                if (item.id === itemToUpdate.id) {
+                    return { ...item, quantity: item.quantity + 1 };
+                }
+                return item;
+            });
+        });
+    };
+
+    function addItemToBag(id: number): void {
+        setBagItems(prevItems => {
+            return [...prevItems, { id, quantity: 1 }];
+        });
+    };
+
+    //???????
 
     function decreaseItemQuantity(id: number) {
         setBagItems(currItems => {
@@ -65,7 +82,7 @@ export function MenuBagProvider({ children }:
                 })
             }
         })
-    }
+    };
 
     function removeFromBag(id: number) {
         setBagItems(currItems => {
