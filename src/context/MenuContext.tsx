@@ -66,8 +66,6 @@ export function MenuBagProvider({ children }:
         });
     };
 
-    //???????
-
     function decreaseItemQuantity(id: number) {
         setBagItems(currItems => {
             if (currItems.find(item => item.id === id)?.quantity === 1) {
